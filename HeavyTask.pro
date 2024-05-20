@@ -10,10 +10,16 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mywidget.cpp
+    mydata.cpp \
+    mydatacollection.cpp \
+    mywidget.cpp \
+    plcdc.cpp
 
 HEADERS += \
-    mywidget.h
+    mydata.h \
+    mydatacollection.h \
+    mywidget.h \
+    plcdc.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
